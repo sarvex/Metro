@@ -1,0 +1,61 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs36 \cf0 \
+\
+Overview\
+
+\b0\fs26 \
+MarsMetro is an application which has been developed on the iOS platform. The application allows the user to select a start station and a destination, which are taken as input to calculate the shortest path.\
+\
+The calculation of the shortest path is based on the DIJKSTRA\'92S shortest path algorithm. \
+The classes have been designed as per the basic OOPS principles. We have the following classes in the code which are responsible for calculating the path.\
+\
+1.MetroMap: \CocoaLigature0 Class that represents the station points and the tracks(edges) between them. Uses the Djikstra's shortest path algorithm to calculate the shortest points.\
+\
+2.MetroStation: Class for representing a metro station. Note that the station should have a unique identifier name. \
+\
+3.MetroTrack: Class represents the track which will be responsible for interconnecting two stations.\CocoaLigature1 \
+\
+4 MetroRoute: \CocoaLigature0 Class contains information about the route constructed between two stations. Note that the contents of this class are readonly.\
+\
+5. MetroRouteStep: Class which describes the step in a route between two metro stations.\
+\
+6. MetroPathEngine: The path engine class is used as a singleton which is responsible to create the layout and also invoke shortest path calculation methods by taking input.\
+\CocoaLigature1 \
+
+\b\fs36 User Interface:
+\b0\fs26 \
+The UI of this application is based on the MVC pattern and it includes a single view controller \
+called MMViewController. \
+When the user taps on the select start button,  a picker will be shown where the user can select the line colour and further select the station. On pressing the done button, the station  will be displayed in the \'91start point\'92 textfield. The flow is similar when the user presses on the select destination button.\
+\
+The main calculation is performed when the user presses on the \'91Search\'92 button. The full route description is displayed below, along with the cost and duration.\
+\
+\
+
+\b\fs36 Unit Testing:
+\b0\fs26 \
+The unit tests for this application have been added in 2 classes:\
+1. MarsMetroTests\
+2. MMViewControllerTests\
+\
+The can be run via Xcode in Test mode and verified accordingly.\
+\
+\
+
+\b\fs36 Notes:
+\b0\fs26 \
+Please note that all the stations, tracks and switch points have been added to an XML file.\
+There are 3 XML files for this purpose:\
+1. StationList.plist (has all the stations as per the line colour)\
+2.TrackList.plist (has all the track connections included)\
+3.SwitchPoints.plist (has all the switch points included)\
+\
+This application can be tested on the iOS simulator. For testing on the device, the apple developer account needs to configured properly to allow deployment to an iOS device.\
+\
+\
+}

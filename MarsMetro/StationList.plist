@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>green</key>
+	<array>
+		<dict>
+			<key>stationID</key>
+			<string>North Park</string>
+			<key>title</key>
+			<string>North Park</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Sheldon Street</string>
+			<key>title</key>
+			<string>Sheldon Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Greenland</string>
+			<key>title</key>
+			<string>Greenland</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Stadium House</string>
+			<key>title</key>
+			<string>Stadium House</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Green House</string>
+			<key>title</key>
+			<string>Green House</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>South Pole</string>
+			<key>title</key>
+			<string>South Pole</string>
+		</dict>
+	</array>
+	<key>blue</key>
+	<array>
+		<dict>
+			<key>stationID</key>
+			<string>West End</string>
+			<key>title</key>
+			<string>West End</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Boxing Avenue</string>
+			<key>title</key>
+			<string>Boxing Avenue</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Boxers Street</string>
+			<key>title</key>
+			<string>Boxers Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Rocky Street</string>
+			<key>title</key>
+			<string>Rocky Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Maximus</string>
+			<key>title</key>
+			<string>Maximus</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Peter Park</string>
+			<key>title</key>
+			<string>Peter Park</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>City Centre</string>
+			<key>title</key>
+			<string>City Centre</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Football Stadium</string>
+			<key>title</key>
+			<string>Football Stadium</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Foot Stand</string>
+			<key>title</key>
+			<string>Foot Stand</string>
+		</dict>
+	</array>
+	<key>black</key>
+	<array>
+		<dict>
+			<key>stationID</key>
+			<string>East End</string>
+			<key>title</key>
+			<string>East End</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Gotham Street</string>
+			<key>title</key>
+			<string>Gotham Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Batman Street</string>
+			<key>title</key>
+			<string>Batman Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Joker Street</string>
+			<key>title</key>
+			<string>Joker Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Hawkins Street</string>
+			<key>title</key>
+			<string>Hawkins Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Da Vinci Lane</string>
+			<key>title</key>
+			<string>Da Vinci Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>South Park</string>
+			<key>title</key>
+			<string>South Park</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Newton bath tub</string>
+			<key>title</key>
+			<string>Newton bath tub</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Einstein Lane</string>
+			<key>title</key>
+			<string>Einstein Lane</string>
+		</dict>
+	</array>
+	<key>yellow</key>
+	<array>
+		<dict>
+			<key>stationID</key>
+			<string>Green Cross</string>
+			<key>title</key>
+			<string>Green Cross</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Orange Street</string>
+			<key>title</key>
+			<string>Orange Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Silk board</string>
+			<key>title</key>
+			<string>Silk board</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Snake Park</string>
+			<key>title</key>
+			<string>Snake Park</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Little Street</string>
+			<key>title</key>
+			<string>Little Street</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Cricket Grounds</string>
+			<key>title</key>
+			<string>Cricket Grounds</string>
+		</dict>
+	</array>
+	<key>red</key>
+	<array>
+		<dict>
+			<key>stationID</key>
+			<string>Morpheus Lane</string>
+			<key>title</key>
+			<string>Morpheus Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Trinity Lane</string>
+			<key>title</key>
+			<string>Trinity Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Neo Lane</string>
+			<key>title</key>
+			<string>Neo Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Smith Lane</string>
+			<key>title</key>
+			<string>Smith Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Cypher Lane</string>
+			<key>title</key>
+			<string>Cypher Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Oracle Lane</string>
+			<key>title</key>
+			<string>Oracle Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Keymakers Lane</string>
+			<key>title</key>
+			<string>Keymakers Lane</string>
+		</dict>
+		<dict>
+			<key>stationID</key>
+			<string>Matrix Stand</string>
+			<key>title</key>
+			<string>Matrix Stand</string>
+		</dict>
+	</array>
+</dict>
+</plist>

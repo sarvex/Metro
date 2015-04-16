@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A33E561B18E94E01005F5A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E561A18E94E01005F5A57 /* Foundation.framework */; };
+		A33E561D18E94E01005F5A57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E561C18E94E01005F5A57 /* CoreGraphics.framework */; };
+		A33E561F18E94E01005F5A57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E561E18E94E01005F5A57 /* UIKit.framework */; };
+		A33E562518E94E01005F5A57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33E562318E94E01005F5A57 /* InfoPlist.strings */; };
+		A33E562718E94E01005F5A57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E562618E94E01005F5A57 /* main.m */; };
+		A33E562B18E94E01005F5A57 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E562A18E94E01005F5A57 /* MMAppDelegate.m */; };
+		A33E562E18E94E01005F5A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A33E562C18E94E01005F5A57 /* Main.storyboard */; };
+		A33E563118E94E01005F5A57 /* MMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E563018E94E01005F5A57 /* MMViewController.m */; };
+		A33E563318E94E01005F5A57 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A33E563218E94E01005F5A57 /* Images.xcassets */; };
+		A33E563A18E94E01005F5A57 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E563918E94E01005F5A57 /* XCTest.framework */; };
+		A33E563B18E94E01005F5A57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E561A18E94E01005F5A57 /* Foundation.framework */; };
+		A33E563C18E94E01005F5A57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33E561E18E94E01005F5A57 /* UIKit.framework */; };
+		A33E564418E94E01005F5A57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A33E564218E94E01005F5A57 /* InfoPlist.strings */; };
+		A33E564618E94E01005F5A57 /* MarsMetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E564518E94E01005F5A57 /* MarsMetroTests.m */; };
+		A33E565118E94E8D005F5A57 /* MetroPathEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = A33E565018E94E8D005F5A57 /* MetroPathEngine.m */; };
+		A373D79618E993C10058EF58 /* MetroMap.m in Sources */ = {isa = PBXBuildFile; fileRef = A373D79518E993C10058EF58 /* MetroMap.m */; };
+		A373D79918E996FB0058EF58 /* MetroStation.m in Sources */ = {isa = PBXBuildFile; fileRef = A373D79818E996FB0058EF58 /* MetroStation.m */; };
+		A373D79C18E999A90058EF58 /* MetroTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A373D79B18E999A90058EF58 /* MetroTrack.m */; };
+		A373D79F18E99EB30058EF58 /* MetroRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = A373D79E18E99EB30058EF58 /* MetroRoute.m */; };
+		A373D7A818E9E7180058EF58 /* MetroRouteStep.m in Sources */ = {isa = PBXBuildFile; fileRef = A373D7A718E9E7180058EF58 /* MetroRouteStep.m */; };
+		A373D7AA18EA05890058EF58 /* StationList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A373D7A918EA05890058EF58 /* StationList.plist */; };
+		A373D7AC18EA83480058EF58 /* TrackList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A373D7AB18EA83480058EF58 /* TrackList.plist */; };
+		A373D7AE18EAAC990058EF58 /* SwitchPoints.plist in Resources */ = {isa = PBXBuildFile; fileRef = A373D7AD18EAAC990058EF58 /* SwitchPoints.plist */; };
+		A3B25D5818EB4C150001D92A /* MMViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B25D5718EB4C150001D92A /* MMViewControllerTests.m */; };
+		A3EEE6A018FE4721008B493C /* ClosedStations.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3EEE69F18FE4721008B493C /* ClosedStations.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A33E563D18E94E01005F5A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A33E560F18E94E01005F5A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A33E561618E94E01005F5A57;
+			remoteInfo = MarsMetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A33E561718E94E01005F5A57 /* MarsMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33E561A18E94E01005F5A57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A33E561C18E94E01005F5A57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A33E561E18E94E01005F5A57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A33E562218E94E01005F5A57 /* MarsMetro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarsMetro-Info.plist"; sourceTree = "<group>"; };
+		A33E562418E94E01005F5A57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A33E562618E94E01005F5A57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A33E562818E94E01005F5A57 /* MarsMetro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarsMetro-Prefix.pch"; sourceTree = "<group>"; };
+		A33E562918E94E01005F5A57 /* MMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		A33E562A18E94E01005F5A57 /* MMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		A33E562D18E94E01005F5A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A33E562F18E94E01005F5A57 /* MMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMViewController.h; sourceTree = "<group>"; };
+		A33E563018E94E01005F5A57 /* MMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMViewController.m; sourceTree = "<group>"; };
+		A33E563218E94E01005F5A57 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A33E563818E94E01005F5A57 /* MarsMetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsMetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33E563918E94E01005F5A57 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A33E564118E94E01005F5A57 /* MarsMetroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarsMetroTests-Info.plist"; sourceTree = "<group>"; };
+		A33E564318E94E01005F5A57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A33E564518E94E01005F5A57 /* MarsMetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarsMetroTests.m; sourceTree = "<group>"; };
+		A33E564F18E94E8D005F5A57 /* MetroPathEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroPathEngine.h; sourceTree = "<group>"; };
+		A33E565018E94E8D005F5A57 /* MetroPathEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroPathEngine.m; sourceTree = "<group>"; };
+		A373D79418E993C10058EF58 /* MetroMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroMap.h; sourceTree = "<group>"; };
+		A373D79518E993C10058EF58 /* MetroMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroMap.m; sourceTree = "<group>"; };
+		A373D79718E996FB0058EF58 /* MetroStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroStation.h; sourceTree = "<group>"; };
+		A373D79818E996FB0058EF58 /* MetroStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroStation.m; sourceTree = "<group>"; };
+		A373D79A18E999A90058EF58 /* MetroTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroTrack.h; sourceTree = "<group>"; };
+		A373D79B18E999A90058EF58 /* MetroTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroTrack.m; sourceTree = "<group>"; };
+		A373D79D18E99EB30058EF58 /* MetroRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroRoute.h; sourceTree = "<group>"; };
+		A373D79E18E99EB30058EF58 /* MetroRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroRoute.m; sourceTree = "<group>"; };
+		A373D7A618E9E7180058EF58 /* MetroRouteStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroRouteStep.h; sourceTree = "<group>"; };
+		A373D7A718E9E7180058EF58 /* MetroRouteStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroRouteStep.m; sourceTree = "<group>"; };
+		A373D7A918EA05890058EF58 /* StationList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StationList.plist; sourceTree = "<group>"; };
+		A373D7AB18EA83480058EF58 /* TrackList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TrackList.plist; sourceTree = "<group>"; };
+		A373D7AD18EAAC990058EF58 /* SwitchPoints.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwitchPoints.plist; sourceTree = "<group>"; };
+		A3B25D5718EB4C150001D92A /* MMViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMViewControllerTests.m; sourceTree = "<group>"; };
+		A3EEE69F18FE4721008B493C /* ClosedStations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClosedStations.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A33E561418E94E01005F5A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E561D18E94E01005F5A57 /* CoreGraphics.framework in Frameworks */,
+				A33E561F18E94E01005F5A57 /* UIKit.framework in Frameworks */,
+				A33E561B18E94E01005F5A57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33E563518E94E01005F5A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E563A18E94E01005F5A57 /* XCTest.framework in Frameworks */,
+				A33E563C18E94E01005F5A57 /* UIKit.framework in Frameworks */,
+				A33E563B18E94E01005F5A57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A33E560E18E94E01005F5A57 = {
+			isa = PBXGroup;
+			children = (
+				A33E562018E94E01005F5A57 /* MarsMetro */,
+				A33E563F18E94E01005F5A57 /* MarsMetroTests */,
+				A33E561918E94E01005F5A57 /* Frameworks */,
+				A33E561818E94E01005F5A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A33E561818E94E01005F5A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33E561718E94E01005F5A57 /* MarsMetro.app */,
+				A33E563818E94E01005F5A57 /* MarsMetroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A33E561918E94E01005F5A57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33E561A18E94E01005F5A57 /* Foundation.framework */,
+				A33E561C18E94E01005F5A57 /* CoreGraphics.framework */,
+				A33E561E18E94E01005F5A57 /* UIKit.framework */,
+				A33E563918E94E01005F5A57 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33E562018E94E01005F5A57 /* MarsMetro */ = {
+			isa = PBXGroup;
+			children = (
+				A373D79318E9937F0058EF58 /* MetroPath */,
+				A33E564F18E94E8D005F5A57 /* MetroPathEngine.h */,
+				A33E565018E94E8D005F5A57 /* MetroPathEngine.m */,
+				A33E562918E94E01005F5A57 /* MMAppDelegate.h */,
+				A33E562A18E94E01005F5A57 /* MMAppDelegate.m */,
+				A33E562C18E94E01005F5A57 /* Main.storyboard */,
+				A33E562F18E94E01005F5A57 /* MMViewController.h */,
+				A33E563018E94E01005F5A57 /* MMViewController.m */,
+				A33E563218E94E01005F5A57 /* Images.xcassets */,
+				A33E562118E94E01005F5A57 /* Supporting Files */,
+			);
+			path = MarsMetro;
+			sourceTree = "<group>";
+		};
+		A33E562118E94E01005F5A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33E562218E94E01005F5A57 /* MarsMetro-Info.plist */,
+				A33E562318E94E01005F5A57 /* InfoPlist.strings */,
+				A33E562618E94E01005F5A57 /* main.m */,
+				A33E562818E94E01005F5A57 /* MarsMetro-Prefix.pch */,
+				A373D7A918EA05890058EF58 /* StationList.plist */,
+				A373D7AD18EAAC990058EF58 /* SwitchPoints.plist */,
+				A373D7AB18EA83480058EF58 /* TrackList.plist */,
+				A3EEE69F18FE4721008B493C /* ClosedStations.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A33E563F18E94E01005F5A57 /* MarsMetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A33E564518E94E01005F5A57 /* MarsMetroTests.m */,
+				A3B25D5718EB4C150001D92A /* MMViewControllerTests.m */,
+				A33E564018E94E01005F5A57 /* Supporting Files */,
+			);
+			path = MarsMetroTests;
+			sourceTree = "<group>";
+		};
+		A33E564018E94E01005F5A57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A33E564118E94E01005F5A57 /* MarsMetroTests-Info.plist */,
+				A33E564218E94E01005F5A57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A373D79318E9937F0058EF58 /* MetroPath */ = {
+			isa = PBXGroup;
+			children = (
+				A373D79418E993C10058EF58 /* MetroMap.h */,
+				A373D79518E993C10058EF58 /* MetroMap.m */,
+				A373D79718E996FB0058EF58 /* MetroStation.h */,
+				A373D79818E996FB0058EF58 /* MetroStation.m */,
+				A373D79A18E999A90058EF58 /* MetroTrack.h */,
+				A373D79B18E999A90058EF58 /* MetroTrack.m */,
+				A373D79D18E99EB30058EF58 /* MetroRoute.h */,
+				A373D79E18E99EB30058EF58 /* MetroRoute.m */,
+				A373D7A618E9E7180058EF58 /* MetroRouteStep.h */,
+				A373D7A718E9E7180058EF58 /* MetroRouteStep.m */,
+			);
+			path = MetroPath;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A33E561618E94E01005F5A57 /* MarsMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33E564918E94E01005F5A57 /* Build configuration list for PBXNativeTarget "MarsMetro" */;
+			buildPhases = (
+				A33E561318E94E01005F5A57 /* Sources */,
+				A33E561418E94E01005F5A57 /* Frameworks */,
+				A33E561518E94E01005F5A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarsMetro;
+			productName = MarsMetro;
+			productReference = A33E561718E94E01005F5A57 /* MarsMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A33E563718E94E01005F5A57 /* MarsMetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33E564C18E94E01005F5A57 /* Build configuration list for PBXNativeTarget "MarsMetroTests" */;
+			buildPhases = (
+				A33E563418E94E01005F5A57 /* Sources */,
+				A33E563518E94E01005F5A57 /* Frameworks */,
+				A33E563618E94E01005F5A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A33E563E18E94E01005F5A57 /* PBXTargetDependency */,
+			);
+			name = MarsMetroTests;
+			productName = MarsMetroTests;
+			productReference = A33E563818E94E01005F5A57 /* MarsMetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A33E560F18E94E01005F5A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Amendeep Singh";
+				TargetAttributes = {
+					A33E563718E94E01005F5A57 = {
+						TestTargetID = A33E561618E94E01005F5A57;
+					};
+				};
+			};
+			buildConfigurationList = A33E561218E94E01005F5A57 /* Build configuration list for PBXProject "MarsMetro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A33E560E18E94E01005F5A57;
+			productRefGroup = A33E561818E94E01005F5A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A33E561618E94E01005F5A57 /* MarsMetro */,
+				A33E563718E94E01005F5A57 /* MarsMetroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A33E561518E94E01005F5A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373D7AC18EA83480058EF58 /* TrackList.plist in Resources */,
+				A373D7AE18EAAC990058EF58 /* SwitchPoints.plist in Resources */,
+				A33E563318E94E01005F5A57 /* Images.xcassets in Resources */,
+				A373D7AA18EA05890058EF58 /* StationList.plist in Resources */,
+				A3EEE6A018FE4721008B493C /* ClosedStations.plist in Resources */,
+				A33E562518E94E01005F5A57 /* InfoPlist.strings in Resources */,
+				A33E562E18E94E01005F5A57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33E563618E94E01005F5A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E564418E94E01005F5A57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A33E561318E94E01005F5A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33E562B18E94E01005F5A57 /* MMAppDelegate.m in Sources */,
+				A373D79918E996FB0058EF58 /* MetroStation.m in Sources */,
+				A373D7A818E9E7180058EF58 /* MetroRouteStep.m in Sources */,
+				A33E563118E94E01005F5A57 /* MMViewController.m in Sources */,
+				A373D79F18E99EB30058EF58 /* MetroRoute.m in Sources */,
+				A33E565118E94E8D005F5A57 /* MetroPathEngine.m in Sources */,
+				A373D79618E993C10058EF58 /* MetroMap.m in Sources */,
+				A33E562718E94E01005F5A57 /* main.m in Sources */,
+				A373D79C18E999A90058EF58 /* MetroTrack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33E563418E94E01005F5A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B25D5818EB4C150001D92A /* MMViewControllerTests.m in Sources */,
+				A33E564618E94E01005F5A57 /* MarsMetroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A33E563E18E94E01005F5A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A33E561618E94E01005F5A57 /* MarsMetro */;
+			targetProxy = A33E563D18E94E01005F5A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A33E562318E94E01005F5A57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33E562418E94E01005F5A57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A33E562C18E94E01005F5A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33E562D18E94E01005F5A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A33E564218E94E01005F5A57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A33E564318E94E01005F5A57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A33E564718E94E01005F5A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A33E564818E94E01005F5A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A33E564A18E94E01005F5A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarsMetro/MarsMetro-Prefix.pch";
+				INFOPLIST_FILE = "MarsMetro/MarsMetro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A33E564B18E94E01005F5A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarsMetro/MarsMetro-Prefix.pch";
+				INFOPLIST_FILE = "MarsMetro/MarsMetro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A33E564D18E94E01005F5A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarsMetro.app/MarsMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarsMetro/MarsMetro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MarsMetroTests/MarsMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A33E564E18E94E01005F5A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MarsMetro.app/MarsMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MarsMetro/MarsMetro-Prefix.pch";
+				INFOPLIST_FILE = "MarsMetroTests/MarsMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A33E561218E94E01005F5A57 /* Build configuration list for PBXProject "MarsMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33E564718E94E01005F5A57 /* Debug */,
+				A33E564818E94E01005F5A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33E564918E94E01005F5A57 /* Build configuration list for PBXNativeTarget "MarsMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33E564A18E94E01005F5A57 /* Debug */,
+				A33E564B18E94E01005F5A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33E564C18E94E01005F5A57 /* Build configuration list for PBXNativeTarget "MarsMetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33E564D18E94E01005F5A57 /* Debug */,
+				A33E564E18E94E01005F5A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A33E560F18E94E01005F5A57 /* Project object */;
+}
