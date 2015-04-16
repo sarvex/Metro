@@ -44,4 +44,3 @@ There are 3 XML files for this purpose:
 
 This application can be tested on the iOS simulator. For testing on the device, the apple developer account needs to configured properly to allow deployment to an iOS device.
 
-
